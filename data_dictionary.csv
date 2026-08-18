@@ -1,0 +1,11 @@
+file,field,meaning
+warehouses.csv,warehouse_id,Unique warehouse identifier
+warehouses.csv,utilisation,Outbound parcels / daily capacity
+leases.csv,notice_days,Notice period before lease expiry
+leases.csv,monthly_rent,Monthly rent; illustrative financial field
+assets.csv,health_score,0–1 current asset health indicator
+assets.csv,failures_90d,Number of failures in previous 90 days
+maintenance.csv,severity,Critical / High / Medium
+logistics.csv,dispatch_sla_pct,Dispatch SLA percentage
+logistics.csv,delivery_sla_pct,Delivery SLA percentage
+logistics.csv,external_disruption_risk,0–1 external disruption signal
